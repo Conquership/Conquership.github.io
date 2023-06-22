@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+    font-family: F16;
+    src: url("../Fonts/Inconsolata-VariableFont_wdth,wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+  
+	p {
+    font-family: F16;
+    color: #ffffff; 
+	}
+      body {background-color: #272727;} 
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 10px;
+  
+}
+
+header {
+	
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+  margin-bottom: 180px;
+}
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+	
+}
+
+section
+ {
+	font-family: F16;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #272727;
+  color: white;
+  
+}
+h1 {
+	text-align: center;
+	font-family: F16;
+  font-size: 6rem;
+  padding: 2rem;
+  background-color: #272727;
+  color: white;
+  
+}
