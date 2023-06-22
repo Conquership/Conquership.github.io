@@ -13,7 +13,6 @@ body {
     font-family: F16;
     color: #ffffff; 
 	}
-      body {background-color: #272727;} 
 
 .wrapper {
   height: 100vh;
@@ -21,7 +20,7 @@ body {
   perspective: 10px;
   
 }
-
+body {background-color: #272727;} 
 header {
 	
   position: relative;
@@ -35,11 +34,12 @@ header {
 
 .background {
   transform: translateZ(-10px) scale(2);
-  margin-bottom: 180px;
+  margin-top: -1000px;
 }
 
 .foreground {
   transform: translateZ(-5px) scale(1.5);
+    margin-bottom: 160px;
 }
 
 .background,
@@ -59,6 +59,17 @@ header {
 	
 }
 
+.showcase1 {
+	position: relative;
+	padding: 2rem;
+	background-color: #272727;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
 section
  {
 	font-family: F16;
@@ -66,7 +77,6 @@ section
   padding: 2rem;
   background-color: #272727;
   color: white;
-  
 }
 h1 {
 	text-align: center;
