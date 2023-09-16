@@ -96,5 +96,12 @@ h1 {
   padding: 2rem;
   background-color: #272727;
   color: white;
-  
+}
+
+h2 {
+	font-family: F16;
+  font-size: 3rem;
+  padding: 2rem;
+  background-color: #272727;
+  color: white;
 }
